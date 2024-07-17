@@ -9,12 +9,14 @@ print(type(flotante))
 print(type(texto))
 print(type(booleano))
 
+
 # Formas de concatenar cadenas de texto / string (str)
 print("El primer saludo de mi aprendizaje es: " + texto)
 """Cuando se utiliza "+" para concatenar 2 string debes dejar espaciado"""
 
 print("El primer saludo de mi aprendizaje es:", texto)
 """Cuando se ultiliza "," para concatenar 2 string el espaciado se hace automatico"""
+
 
 # Tipo de dato Numerico (Numeric)
 """Podemos almacenar multiples valores como: Numeros enteros (Integer), Numeros Flotantes (Float), Numeros Complejos (Complex Number)"""
@@ -35,10 +37,18 @@ print(numero3, numero4) # La "," en la concatenacion hace espaciado
 """Para convertir una variable de tipo texto a entero debemos usar la funcion int()"""
 print("Suma:", int(numero3) + int(numero4))
 
-# Tipo de dato Diccionario (Dictionary)
-
 
 # Tipo de dato Booleano 0 y 1, True y False (Boolean)
+
+miVariable = 3 < 2 #Estamos utilizando operador relacional para comprobar si es Verdadero  o Falso
+print("El resultado de mi variable es:", miVariable)
+# Para solicitar Entrada del usuario se utiliza la funcion input()
+primerDato = input("Escriba el primer valor: ")
+segundoDato = input("Escriba el segundo valor: ")
+print("El resultado de", primerDato, "es menor que", segundoDato, "es:", primerDato < segundoDato)
+
+
+# Tipo de dato Diccionario (Dictionary)
 
 
 # Tipo de dato Set
